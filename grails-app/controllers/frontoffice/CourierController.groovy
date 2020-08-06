@@ -150,6 +150,12 @@ class CourierController extends RestfulController{
         render(model:  [exp:listeexp])
     }
 
+    def testjenkins(){
+    
+         render "success"
+
+      }
+
 
 
 
